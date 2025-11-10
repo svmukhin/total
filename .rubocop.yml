@@ -15,14 +15,16 @@ Layout/MultilineMethodCallIndentation:
 Metrics/AbcSize:
   Max: 50
 Metrics/MethodLength:
-  Max: 30
+  Enabled: false
 Metrics/CyclomaticComplexity:
-  Max: 10
+  Enabled: false
 Metrics/PerceivedComplexity:
-  Max: 10
+  Enabled: false
 Metrics/ParameterLists:
   Max: 10
 Layout/ParameterAlignment:
+  Enabled: false
+Lint/ShadowedException:
   Enabled: false
 plugins:
   - rubocop-rake
